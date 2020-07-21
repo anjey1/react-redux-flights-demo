@@ -11,7 +11,6 @@ class flightList extends React.Component {
         this.props.getFlights();
     }
     render() {
-        debugger;
         const flightsList = this.props.flights.map(function (fligthsArr) {
             return (<Col xs={12}
                 sm={6}
