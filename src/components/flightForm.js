@@ -14,7 +14,6 @@ import {findDOMNode} from "react-dom";
 
 class flightForm extends React.Component {
     handleSubmit() {
-        debugger;
         if (this.refs.price) {
             const flight = [{
                     from: findDOMNode(this.refs.from).value,
